@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API POKEMON</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <label>Ingrese un numero del 1 al 898 para conocer el Pokemon al que corresponde</label>
+        <p></p>
+        <label>Numero de Pokemon</label>
+        <input type="text" id = "PokemonNum"/>
+        <button id="Buscar">Buscar Pokemon</button>
+        <p></p>
+
+        <table id="TablaResultados"; border="1">
+            <thead>
+                <caption>Referencia a PokeApi</caption>
+                <tr align="center" valign "middle">
+                    <th rowspan="2">Orden</th>
+                    <th rowspan="2">Nombre</th>
+                    <th rowspan="2">Tipo</th>
+                </tr>
+            </thead>
+            <tbody id="Elem">
+
+            </tbody>
+        </table>
+
+        <img id="respuesta1" />
+        <img id="respuesta2" />
+
+        <script type="text/javascript"src="index.js"></script>
+    </body>
+</html>
